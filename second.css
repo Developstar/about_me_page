@@ -1,0 +1,485 @@
+
+
+
+.baba{
+    /* border: 1px solid red; */
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin-bottom: 20px;
+   
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+  
+    background-color: antiquewhite; 
+}
+
+p{
+    font-family: Arial;
+    font-size: large;
+}
+
+.container{
+    width: 100%;
+    height:400px;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    filter: contrast(65%);
+
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.abtme{
+    border: 1px solid red;
+    max-width: 80%;
+}
+
+
+.second_container{
+    width: 100%;
+    height:500px;
+    background-position: center;
+    background-size: cover;
+
+    background-color: black;
+    filter: contrast(65%);
+    /* background-image: url(./Images/elvis-bekmanis-g9qwoPiS0nY-unsplash.jpg); */
+    background-attachment: fixed;
+    /* filter: contrast(65%); */
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myedu{
+    border: 1px solid red;
+    max-width: 80%;
+}
+
+h4,h3{
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+
+.third_container{
+    width: 100%;
+    height:500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./Images/chandler-cruttenden-cCMySCLaY9U-unsplash.jpg);
+    background-attachment: fixed;
+    filter: contrast(65%);
+
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mycert{
+    /* border: 1px soid red; */
+    max-width: 80%;
+}
+
+.fourth_container{
+    width: 100%;
+    height:500px;
+    background-position: center;
+    background-size: cover;
+    /* background-image: url(./Images/elvis-bekmanis-g9qwoPiS0nY-unsplash.jpg); */
+    background-attachment: fixed;
+    /* filter: contrast(65%); */
+    background-color: black;
+    filter: contrast(65%);
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.myjob{
+    border: 1px solid red;
+    max-width: 80%;
+}
+
+.fifth_container{
+    width: 100%;
+    height:500px;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    filter: contrast(65%);
+
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myskills{
+    border: 1px solid red;
+    width: 80%;
+   
+}
+
+.wrapper{
+    border: 1px solid red;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.flex-container{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    background-color: black;
+    /* color: white; */
+    font-family: helvetica;
+
+    font-weight: 500;
+    font-size: 16px;
+    padding: 30px 5%;
+    
+}
+
+.anchor{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+li a{
+    color: beige;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: orange;
+}
+
+#button{
+border: 1px solid orange;
+padding: 5px 5px;
+
+}
+
+p,dl,dd,li{
+    font-size: 18px;
+}
+h1,h2,p{
+    text-align: center;
+    
+}
+
+h1,h2{
+    color: orange;
+    border: 1px solid black;
+    background-color: black;
+}
+
+
+/* .wrapperTwo h2{
+    max-width: 100%;
+    padding: 0;
+} */
+
+fieldset{
+    background-color: black;
+   
+}
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+   
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+    
+    /* align-items: center; */   
+}
+
+
+
+
+
+
+
+/* .allform{
+    
+     background-color: black;
+    color: white;
+    border-radius: 10px;
+   
+   
+} */
+
+label{
+    font-size: 18px;
+}
+
+
+
+.box{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    
+    border: none;
+}
+
+.inputCont{
+    margin-top: 20px;
+}
+
+#submit{
+    width: 100%;
+    border: none;
+    background-color: orange;
+    color: black;
+    height: 50px;
+    font-weight: bold;
+    font-size: large;
+}
+
+input, select{
+    height: 25px;
+    border: none;
+    
+
+}
+
+#message{
+    
+}
+
+#track{
+  margin-bottom: 50px; 
+}
+
+#submit{
+    margin-bottom: 50px;
+}
+
+
+/* CALCULATORS */
+
+
+#result{
+    width: 148px;
+    height: 25px;
+    margin-top: 13px;
+   
+    border: 3px groove rgb(207, 204, 204) ;
+    
+     
+ }
+ 
+ .button{
+    
+     width: 35px;
+     height: 35px;
+     border-radius: 2px;
+     margin-top: 7px;
+     margin-left: 0.1px;
+     font-weight: bold;
+     border-radius: 3px;
+   
+     
+ }
+ 
+ #math{
+     background-color: rgb(49, 47, 47);
+     color: white;
+ border-left: 2px solid rgb(5, 5, 5); 
+ border-bottom: 2px solid rgb(5, 5, 5); 
+ }
+ 
+ #calc{
+     margin-right: 100%;
+     margin-left: 40%;
+     background-color: rgb(150, 150, 148);
+     border-radius: 5px;
+     height: 310px;
+     
+     
+ }
+ 
+ #cancel{
+     background-color: red;
+     border-left: 2px solid rgb(5, 5, 5); 
+ border-top: 2px solid rgb(5, 5, 5);
+ }
+ 
+ #equal{
+     border-left: 2px solid rgb(5, 5, 5); 
+     border-bottom: 2px solid rgb(5, 5, 5);
+     background-color: rgb(49, 47, 47); 
+     color: white;
+ }
+ 
+ .apapo{
+     margin-right: -8px;
+     margin-left: -6px;
+     
+     
+ }
+ 
+ table{
+     margin-top: -65px;
+ }
+
+
+     /* FLEXBOX CALCULATOR */
+
+ .flx-container{
+     display: flex;
+     padding-left: 5px;
+     padding-right: 5px;
+     justify-content: space-between;
+     margin-top: 7px;
+
+ }
+
+.divcontain{
+  padding-left: 115px;
+  
+}
+
+input, textarea, select{
+    border-radius: 5px;
+}
+
+.present{
+    background-color: orange;
+    border: 1px solid orange;
+    color:black;
+    padding: 3px;
+}
+
+.scroll{
+    float: right;
+    border: 5px solid orange;
+    height: 50px;
+    width: 40px;
+    margin-right: 10px;
+    background-color: orange;
+    
+    
+    
+}
+
+.scroll a{
+    text-decoration: none;
+    color: black;
+    
+    font-weight: 500;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.anchor a{
+    text-decoration: none;
+    color: black;
+    
+
+    
+}
+
+.anchor a:hover{
+   border: 2px outset orange;
+   background-color: rgb(248, 219, 182);
+
+}
+
+.scroll a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.portdisplay{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portdisplay a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(240, 181, 71);
+    font-weight: bolder;
+    border: 3px solid orangered;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px ;
+    font-size: small;
+    
+}
+
+/* for mobile*/
+
+@media  (min-width:320px) and (max-width:480px){
+    .container{
+        display: flex;
+        flex-direction:column;
+        
+    }
+
+    p,dl{
+        font-size: 14px;
+    }
+
+    li{
+        font-size: var(--small-font-size)
+    }
+
+    div a{
+        font-size: var(--xsmall-font-size);
+    }
+    
+
+    /* div img{
+        display: none; */
+    }
+
+
+
+    /* h1,h2{
+        font-size: 18px;
+    } */
+
+    /* .allform{
+        max-width: 100%;
+    } */
+
+    

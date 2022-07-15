@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Page</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+
+            <ul class="flex-container">
+                <li><a href="./About_me.html">About Me</a></li>
+                <li><a class="present" href="./contact_page.html">Contact</a></li>
+                <li><a href="./register_page.html">Register</a></li>
+                <li id="button"><a href="./Login_page.html">Login</a></li>
+            </ul> 
+
+        </nav>
+
+    </header>
+
+    <main>
+        
+        <fieldset class="allform">
+            <form action="" >
+                <h2>Contact</h2>
+
+                <hr>
+
+                <section class="main_container" >
+                    
+                    <div class="divcontain">
+                        
+                        <div>
+                            <label  for="Name">Enter Name</label>    
+                        </div>
+                        
+                        <div>
+                            <input id="Name" class="box"  type="text" name="name" placeholder="Your Name*" required>
+                        </div>
+                        
+                        <br>
+                        
+                        <div>
+                            <label  for="email">Enter Email</label>
+                        </div>
+                        
+                        <div>
+                            <input id="email" class="box" type="email" name="useremail" placeholder="Your email*" required>
+                        </div>
+                        
+                        <br>
+                        
+                        <div>
+                            <label for="message">Message</label>
+                        </div>
+                        
+                        <div>
+                            <textarea name="usermessage" id="message" class="box" cols="30" rows="10" placeholder="Message*" required></textarea>
+                        </div>
+                        
+                        <br>
+                        
+                        <div>
+                            <label for="Name"  >Select Your Track</label>    
+                        </div>
+                        
+                        <div >
+                            
+                            <select name="preferredtrack" id="track" class="box">
+                                <option value="frontend">Frontend</option>
+                                <option value="backend">Backend</option>
+                                <option value="cloud">Cloud Engineering</option>
+                            </select>
+                        </div>
+                        
+                        <br>
+                        
+                        <div>
+                            <input type="submit" name="submit" value="submit">
+                        </div>
+                    
+                    </div>
+                
+                </section>
+            
+            </form>
+            
+            <!-- scroll button -->
+            
+            <button class="scroll"><a href="#top">Up</a></button>
+        
+        </fieldset>
+    
+    </main>
+    
+    <footer>
+        
+        <br>
+        
+        <section class="footer">
+            <div>@Adeyeye Boluwatife</div>
+            <div>A student of Alt-school Africa</div>
+            <div>All rights reserved.</div>
+        </section>
+    
+    </footer>
+
+</body>
+</html>
