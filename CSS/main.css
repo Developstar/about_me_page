@@ -3,21 +3,6 @@
     box-sizing: border-box;
 }
 
-.main-header{
-    border: 1px solid red;
-}
-
-
-.baba{
-    /* border: 1px solid red; */
-    height: 270px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-   margin-bottom: 20px;
-   
-}
-
 body{
 
     padding: 0;
@@ -26,12 +11,60 @@ body{
     background-color: antiquewhite; 
 }
 
-p{
-    font-family: Arial;
-    font-size: large;
+
+
+.main-header{
+    border: 1px solid red;
+    background-color: rgba(237, 241, 241, 0.671);
 }
 
-.container{
+.navigation{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    background-color: black;
+    /* color: white; */
+    font-family: helvetica;
+
+    font-weight: 500;
+    font-size: 16px;
+    padding: 30px 5%;
+
+    margin: 0 auto;
+    
+}
+
+
+.anchor{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.main{
+    border: 1px solid red;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.my_image{
+    
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin-bottom: 20px;
+   
+}
+
+.aboutme_container{
     width: 100%;
     height:400px;
     background-position: center;
@@ -52,8 +85,7 @@ p{
     max-width: 80%;
 }
 
-
-.second_container{
+.education_container{
     width: 100%;
     height:500px;
     background-position: center;
@@ -76,6 +108,14 @@ p{
     border: 1px solid red;
     max-width: 80%;
 }
+
+
+p{
+    font-family: Arial;
+    font-size: large;
+}
+
+
 
 h4,h3{
     text-align: center;
@@ -149,36 +189,8 @@ h4,h3{
    
 }
 
-.wrapper{
-    border: 1px solid red;
-    max-width: 100%;
-    margin: 0 auto;
-}
 
-.flex-container{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid black;
-    background-color: black;
-    /* color: white; */
-    font-family: helvetica;
 
-    font-weight: 500;
-    font-size: 16px;
-    padding: 30px 5%;
-    
-}
-
-.anchor{
-   
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-    
-}
 
 
 li a{
