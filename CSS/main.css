@@ -14,7 +14,7 @@ body{
 
 
 .main-header{
-    border: 1px solid red;
+    
     background-color: rgba(237, 241, 241, 0.671);
 }
 
@@ -48,7 +48,7 @@ body{
 
 
 .main{
-    border: 1px solid red;
+    
     max-width: 100%;
     margin: 0 auto;
 }
