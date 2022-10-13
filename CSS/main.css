@@ -120,7 +120,7 @@ img{
     height:500px;
     background-position: center;
     background-size: cover;
-    background-image: url(./Images/chandler-cruttenden-cCMySCLaY9U-unsplash.jpg);
+    background-color: black;
     background-attachment: fixed;
     filter: contrast(65%);
 
